@@ -1,0 +1,22 @@
+input#url,input#username{
+    width: 80%;
+}
+form{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.submit{
+    display: flex;
+    flex-direction: row;
+}
+.output textarea{
+   height: 100px;
+}
+.divide{
+    margin-top: 10vh; 
+}
+.button{
+    background-color: rgb(31, 31, 255)!important;
+    box-shadow: 3px 5px 12px -2px rgba(32, 32, 255, 0.836);
+    color: white;
+}

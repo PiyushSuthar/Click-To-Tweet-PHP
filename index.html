@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Click To Tweet</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.min.css">   
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150815704-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-150815704-1');
+</script>
+
+   <style type="text/css">
+	/* click to tweet widget css */
+	.click-to-tweet{border:1px solid #ddd;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;padding:26px;margin:15px 0;background-color:#fff}.click-to-tweet .click-to-tweet-text{text-align:left;font-family:museo-sans,sans-serif;font-weight:300;margin-bottom:10px}.click-to-tweet .click-to-tweet-text a{color:#585858;font-size:26px;line-height:140%;letter-spacing:.05em;font-weight:100;text-decoration:none;text-transform:none}.click-to-tweet a.click-to-tweet-btn{display:block;text-transform:uppercase;font-family:&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif;font-size:12px;font-weight:700;line-height:100%;color:#585858;float:right;padding-right:24px;text-decoration:none;background:url(https://lh3.googleusercontent.com/-Ki5b5kpTgEw/WKnUq50L54I/AAAAAAAAF9w/wVhrlGKuoNwZDKJ5tDaoLl9HxxC1-tpvQCLcB/h120/twitter-little-bird.png) right top no-repeat}
+	/* click to tweet widget css */
+	</style>
+   </head>
+<body>
+	<header>
+		<div style="text-align: center;">
+			<a href="/"><h1 style="text-align: center;color: rgb(31, 31, 255);" >Click To Tweet</h1></a>
+			<P>Use It EveryWhere. Even on Blogger and Static Site.</P>
+		</div>
+	</header>
+			<form action="done.php" method="post">
+				<input type="text" placeholder="Your UserName (without @)" name="username" id="username">
+				<input type="url" placeholder="URL" name="url" id="url">
+				<textarea type="text" placeholder="Text To Tweet" name="Tweet" id="tweet"></textarea>
+				<div class="submit">
+				<input class="button" type="submit" value="SUBMIT" name="submit">
+				<input class="button" type="reset" value="RESET" name="Reset"></div>
+			</form>
+			<h3>Example:</h3>
+							<div class="click-to-tweet"><div class="click-to-tweet-text"><a href="https://twitter.com/intent/tweet?text=Hey! I just landed across this amazing tool, Click To tweet.&tw_p=tweetbutton&url=https://tools.piyushsuthar.online/clicktotweet/&via=piyushsthr" target="_blank">Hey! I just landed across this amazing tool, Click To tweet.</a></div><a class="click-to-tweet-btn" href="https://twitter.com/intent/tweet?text=Hey! I just landed across this amazing tool, Click To tweet.&tw_p=tweetbutton&url=https://tools.piyushsuthar.online/clicktotweet/&via=piyushsthr" target="_blank">Click To Tweet</a></div>
+			
+		<footer style="text-align: center;">
+			<p>Created with <i style="color:red;" class="material-icons red-text">favorite</i> by <a href="https://piyushsuthar.online/" >Piyush Suthar</a></p>
+			<p>Thanks to <a href="https://watercss.netlify.com/">Water.css</a> for css framework.</p>
+			<br>
+			<a href="https://github.com/piyushsuthar">View Source</a>
+		</footer>
+	
+</body>
+</html>
